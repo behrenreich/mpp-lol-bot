@@ -101,7 +101,7 @@ stdin.addListener("data", function(data) {
 
 setInterval(function() { client.startNote('c7', 0); }, 5000);
 
-	client.setChannel("MPP poo poo");
+	client.setChannel("test/awkward");
 	client.start();
   client.on("connect", ()=> (url, "connected"));
   client.on("disconnect", ()=> (url, "disconnected"));
